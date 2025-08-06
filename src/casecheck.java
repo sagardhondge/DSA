@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class casecheck {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        char ch = in.next().trim().charAt(1);
+        if (ch>='a' && ch>='b'){
+            System.out.println("Lowercase");
+        }else {
+            System.out.println("Uppercase");
+        }
+    }
+}
