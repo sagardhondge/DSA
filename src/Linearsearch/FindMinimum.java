@@ -1,3 +1,4 @@
+// an program to count an minimum element in an array by taking useer input
 package Linearsearch;
 import java.util.Scanner;
 
