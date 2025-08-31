@@ -1,9 +1,10 @@
+//Order Agnostic Binary search example
 package binarysearch;
 
 public class orderagnostic {
     public static void main(String[] args) {
         int[] nums={-18,-12,-4,0,2,3,4,5,6,7,8};
-        int target=5;
+        int target=59;
         int ans =orderAgonoisticBS(nums,target);
         System.out.println(ans);
     }
