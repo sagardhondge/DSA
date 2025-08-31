@@ -1,3 +1,4 @@
+//binary search algorithim using ascending array
 package binarysearch;
 
 public class example {
