@@ -11,4 +11,14 @@ public class PrimeCheck {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        int number = 29;
+
+        if (isPrime(number)) {
+            System.out.println(number + " is a Prime Number.");
+        } else {
+            System.out.println(number + " is NOT a Prime Number.");
+        }
+    }
 }
